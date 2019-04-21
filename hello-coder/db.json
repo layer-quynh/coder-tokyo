@@ -2,7 +2,9 @@
   "users": [
     {
       "name": "abcd",
-      "id": "rJ5JV4aps"
+      "id": "rJ5JV4aps",
+      "email": "quynhkun@gmail.com",
+      "password": "1234"
     },
     {
       "name": "a",
