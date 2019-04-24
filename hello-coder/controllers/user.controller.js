@@ -18,7 +18,6 @@ module.exports.search = function(req, res) {
 };
 
 module.exports.create = function(req, res) {
-    console.log(req.cookies);
     res.render('users/create');
 };
 
@@ -36,4 +35,4 @@ module.exports.getId = function(req, res) {
     res.render('users/view', {
         usr: user
     });
-}
+};

@@ -673,5 +673,24 @@
       "image": "https://img1.lostbird.vn/960x-/2017/08/coby2.jpg",
       "description": "ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non"
     }
+  ],
+  "sessions": [
+    {
+      "id": "KNqa1gNxY"
+    },
+    {
+      "id": "oKDuDbnHw",
+      "cart": {
+        "6ca0dae3-1e72-4db7-8ef6-3bfea56563e7": 3,
+        "8be5be10-d119-466a-b610-43c7407f4b15": 1
+      }
+    },
+    {
+      "id": "cCfbC9XDj",
+      "cart": {
+        "bd567b0f-7218-45c0-8e23-58912bf7d497": 1,
+        "8be5be10-d119-466a-b610-43c7407f4b15": 1
+      }
+    }
   ]
 }
