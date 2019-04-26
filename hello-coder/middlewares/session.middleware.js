@@ -1,15 +1,16 @@
 var shortid = require('shortid');
+var User = require('../models/users.model');
 
-module.exports = function(req, res, next) {
+module.exports = async function(req, res, next) {
     if(!req.signedCookies.sessionId) {
         var sessionId = shortid.generate()
         res.cookie('sessionId', sessionId, {
             signed: true
         });
 
-        db.get('sessions').push({
+        await User.insertMany({
             id: sessionId
-        }).write();
+        });
     }
 
     next();

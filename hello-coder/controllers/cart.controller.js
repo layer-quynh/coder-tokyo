@@ -11,8 +11,7 @@ module.exports.viewCart = function(req, res) {
     var carts = db.get('sessions')
                   .find({id: sessionId})
                   .value();
-    var productsId = Object.keys(carts.cart);
-    console.log(productsId);
+    // var productsId = Object.keys(carts.cart);
 }
 
 module.exports.addToCart =  function(req, res, next) {
